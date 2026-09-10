@@ -1,0 +1,21 @@
+## Phase 1 — Network Foundation & Routing
+
+### Network Topology
+
+![GNS3 Topology](screenshots/phase-1-network-foundation/01-gns3-topology.png)
+
+### VLAN Configuration
+
+![HQ VLANs](screenshots/phase-1-network-foundation/02-hq-vlans.png)
+
+### Trunk Configuration
+
+![Trunk](screenshots/phase-1-network-foundation/04-trunk.png)
+
+### OSPF Routing
+
+![OSPF](screenshots/phase-1-network-foundation/07-ospf-routing.png)
+
+### End-to-End Connectivity
+
+![Connectivity](screenshots/phase-1-network-foundation/08-end-to-end-connectivity.png)
