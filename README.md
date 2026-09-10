@@ -200,22 +200,4 @@ The final architecture will include:
 - Network hardening
 - Troubleshooting scenarios
 
----
 
-## Verification & Testing
-
-The network was validated through connectivity tests between different
-VLANs and between the two enterprise sites.
-
-Examples:
-
-```text
-PC-HR-HQ → 192.168.10.1       ✅
-PC-HR-HQ → 192.168.20.10      ✅
-PC-HR-HQ → 192.168.110.10     ✅
-
-PC-HR-BR → 192.168.110.1      ✅
-PC-HR-BR → 192.168.120.10     ✅
-PC-HR-BR → 192.168.10.10      ✅
-PC-HR-BR → 192.168.20.10      ✅
-PC-HR-BR → 192.168.30.10      ✅
