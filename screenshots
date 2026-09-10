@@ -2,8 +2,10 @@
 
 ### Network Topology
 
-![GNS3 Topology](https://github.com/nasriadam/Multi-Site-Enterprise-Network/blob/main/Complete%20GNS3%20Topology.png)
+![GNS3 Topology]<div>
+<img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
 
+</div>
 ### VLAN Configuration
 
 ![HQ VLANs](screenshots/phase-1-network-foundation/02-hq-vlans.png)
