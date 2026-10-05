@@ -145,16 +145,35 @@ Implemented:
 - DHCP troubleshooting
 
 ### Phase 3 — Network Security & Segmentation
+**Status: Completed ✅**
 
-**Status: Planned 🔒**
+Implemented and validated a network security policy across the HQ and Branch sites using Cisco Extended ACLs and Reflexive ACLs.
 
-Planned components:
+Implemented: 
 
-- Extended ACLs
-- Department-based traffic restrictions
+- Extended ACLs for traffic filtering
+- Department-based traffic restrictions (HR, Finance, IT)
 - Inter-VLAN access control
-- Network segmentation policies
-- Management access restrictions
+- HQ ↔ Branch security policies
+- Network segmentation between departments
+- Reflexive ACLs for controlled return traffic
+- OSPF traffic protection and inter-site filtering
+- ACL counters and connectivity tests for policy validation
+
+Security policy validated:
+
+| Traffic | Result |
+|---------|--------|
+| HR ↔ HR (HQ/Branch) | ✅ Allowed |
+| Finance ↔ Finance (HQ/Branch) | ✅ Allowed |
+| IT ↔ IT (HQ/Branch) | ✅ Allowed |
+| IT → HR | ✅ Allowed |
+| IT → Finance | ✅ Allowed |
+| HR → Finance | ❌ Blocked |
+| Finance → HR | ❌ Blocked |
+| HR → IT (unsolicited) | ❌ Blocked |
+| Finance → IT (unsolicited) | ❌ Blocked |
+| Unauthorized inter-site traffic | ❌ Blocked |
 
 ### Phase 4 — Network Hardening
 
