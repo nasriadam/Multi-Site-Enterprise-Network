@@ -178,20 +178,42 @@ Security policy validated:
 
 ### Phase 4 — Final Enterprise Scenario
 
-**Status: Planned 🚀**
+**Status: Completed ✅**
 
-The final phase will combine the implemented technologies into a
-complete multi-site enterprise network scenario.
+Final validation and documentation of the multi-site enterprise network, integrating the technologies and security policies implemented in the previous phases.
 
-The final architecture will include:
+**Validated components:**
 
-- VLAN segmentation
+- VLAN segmentation across HQ and Branch
+
 - Inter-VLAN routing
-- OSPF
-- DHCP
-- ACL-based security
-- Secure device management
-- Network hardening
-- Troubleshooting scenarios
+
+- OSPF dynamic routing between sites
+
+- DHCP services and automatic IPv4 address assignment
+
+- Extended ACLs and Reflexive ACLs
+
+- Department-based traffic restrictions
+
+- Controlled inter-site communication
+
+- Validation of authorized and blocked traffic
+
+- Connectivity testing and ACL counter verification
+
+- Network topology and configuration documentation
+
+**Validation results:**
+
+- HQ and Branch routing verified
+
+- DHCP addressing and default gateways checked
+
+- Authorized same-department communication between sites tested
+
+- Unauthorized cross-department traffic blocked according to the configured policies
+
+- ACL behavior verified through connectivity tests and match counters
 
 
