@@ -175,36 +175,8 @@ Security policy validated:
 | Finance → IT (unsolicited) | ❌ Blocked |
 | Unauthorized inter-site traffic | ❌ Blocked |
 
-### Phase 4 — Network Hardening
 
-**Status: Planned 🔒**
-
-Planned components:
-
-- SSH configuration
-- Secure device management
-- Port security
-- PortFast
-- BPDU Guard
-- Management VLAN
-- Unused interface shutdown
-- Native VLAN hardening
-
-### Phase 5 — Monitoring & Troubleshooting
-
-**Status: Planned 🔍**
-
-Planned scenarios:
-
-- VLAN configuration errors
-- Trunk failures
-- Gateway misconfiguration
-- Interface failures
-- OSPF adjacency issues
-- Routing problems
-- ACL-related connectivity issues
-
-### Phase 6 — Final Enterprise Scenario
+### Phase 4 — Final Enterprise Scenario
 
 **Status: Planned 🚀**
 
